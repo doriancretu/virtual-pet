@@ -1,0 +1,14 @@
+{
+  "name": "virtual-pet",
+  "version": "1.0.0",
+  "description": "week 7",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Dorian",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
