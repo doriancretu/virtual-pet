@@ -55,3 +55,16 @@ describe('constructor', () => {
         expect(pet.fitness).toEqual(10);
       });
   });
+  describe('checkUp', () => {
+      it('check status of pet', () => {
+          const pet = new Pet('Fido');
+          pet.fitness.hunger = true;
+          pet.fitness <= 3;
+          pet.hunger >= 5;
+          pet.fitness.hunger = false
+
+
+          pet.checkUp();
+          expect(pet.checkUp)
+      });
+  });
