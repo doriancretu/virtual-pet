@@ -19,6 +19,10 @@ describe('constructor', () => {
    it('should have initial fitness level of 10', () => {
     const pet = new Pet('Fido');
     expect(pet.fitness).toEqual(10);
+   });
+   it('should decrease the Pet hunger level by 3', () => {
+       const pet = new Pet('Fido');
+       expect(pet.feed).toEqual(3);
    })
 });
  describe('growUp', () => {

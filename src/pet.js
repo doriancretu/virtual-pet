@@ -5,6 +5,7 @@ function Pet(name) {
     this.age = 0;
     this.hunger = 0;
     this.fitness = 10;
+    this.feed = 3;
     // this.growUp = function() {
     //   this.age +=1;
     //}
@@ -21,6 +22,7 @@ function Pet(name) {
         this.fitness = 10;
       }
     };
+    
 //   const pet = {
 //       name: ‘Fido’,
 //       age: 0,
